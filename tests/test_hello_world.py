@@ -5,3 +5,4 @@ def add(a):
 
 def test_add_function():
     assert add(1) == 2
+
