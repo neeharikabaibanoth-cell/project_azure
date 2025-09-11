@@ -9,4 +9,9 @@
 
 ### Assess app changes that would change your decision.
 
-*Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
+Web app became my easiest option to do the project as it helped to work with ease and lead to creation of the app in a safe way.The main advantages of the web app is as follows:
+No server management
+Faster deployment
+Built-in scaling & security
+Lower maintenance & cost
+Ideal for modern web development 
