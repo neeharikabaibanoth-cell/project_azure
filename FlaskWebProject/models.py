@@ -74,3 +74,5 @@ class Post(db.Model):
         if new:
             db.session.add(self)
         db.session.commit()
+
+

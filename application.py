@@ -23,5 +23,4 @@ if __name__ == '__main__':
         PORT = 5555
 
     # For production on Azure, don't use ssl_context here
-    app.run(host=HOST, port=PORT)
-"""
+    app.run(host=HOST, port=PORT)"""
