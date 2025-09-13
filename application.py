@@ -1,7 +1,6 @@
 """
 This script runs the FlaskWebProject application using a development server.
 """
-
 from os import environ
 from FlaskWebProject import app
 
@@ -12,3 +11,17 @@ if __name__ == '__main__':
     except ValueError:
         PORT = 5555
     app.run(HOST, PORT, ssl_context='adhoc')
+"""
+from os import environ
+from FlaskWebProject import app
+
+if __name__ == '__main__':
+    HOST = environ.get('SERVER_HOST', '0.0.0.0')  # Listen on all interfaces
+    try:
+        PORT = int(environ.get('PORT', '5555'))   # Azure sets this PORT
+    except ValueError:
+        PORT = 5555
+
+    # For production on Azure, don't use ssl_context here
+    app.run(host=HOST, port=PORT)
+"""
